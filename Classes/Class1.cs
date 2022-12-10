@@ -12,10 +12,17 @@ namespace Classes
         {
         }
 
-        public string Make { get; set; } = string.Empty;
-        public string Model { get; set; } = string.Empty;
+        public Car(string make, string model, string year)
+        {
+            Make = make;
+            Model = model;
+            Year = year;
+        }
 
-        public string Year { get; set; } = string.Empty;
+        public string Make { get; set; } = "Car make";
+        public string Model { get; set; } = "Car model";
+
+        public string Year { get; set; } = "Car Year";
 
     }
 }

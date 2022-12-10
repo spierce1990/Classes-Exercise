@@ -12,9 +12,16 @@
             car1.Model = "G6";
             car1.Year = "2007";
 
+            Car Car2 = new Car() { Make = "bmw", Model = "5", Year = "2022"};
+
         Console.WriteLine($"The maker of the car is {car1.Make}");
         Console.WriteLine($"The maker of the car is {car1.Model}");
         Console.WriteLine($"The maker of the car is {car1.Year}");
+
+
+            Console.Write(Car2.Make);
+            Console.WriteLine(Car2.Model);
+            Console.WriteLine(Car2.Year);
         }
 
 
